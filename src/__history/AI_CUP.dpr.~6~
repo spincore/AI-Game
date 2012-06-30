@@ -1,0 +1,20 @@
+program AI_CUP;
+
+{$R *.dres}
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {FrmMain},
+  uPhysic in 'uPhysic.pas',
+  uMovement in 'uMovement.pas',
+  uPassnShoot in 'uPassnShoot.pas',
+  uDraw in 'uDraw.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMain, FrmMain);
+  Application.Run;
+end.

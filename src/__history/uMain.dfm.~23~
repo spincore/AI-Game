@@ -1,0 +1,92 @@
+object FrmMain: TFrmMain
+  AlignWithMargins = True
+  Left = 49
+  Top = 55
+  Caption = 'Artificial Intelligence - CUP'
+  ClientHeight = 576
+  ClientWidth = 1179
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  WindowState = wsMaximized
+  OnPaint = FormPaint
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblResult: TLabel
+    Left = 504
+    Top = 4
+    Width = 276
+    Height = 78
+    Caption = 'lblResult'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -64
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object ptbxField: TPaintBox
+    Left = 8
+    Top = 88
+    Width = 1000
+    Height = 400
+    Color = clGreen
+    ParentColor = False
+  end
+  object Image1: TImage
+    Left = 104
+    Top = 494
+    Width = 105
+    Height = 105
+    Picture.Data = {
+      0954506E67496D61676589504E470D0A1A0A0000000D494844520000001A0000
+      004F0806000000F509D58A000000017352474200AECE1CE90000000467414D41
+      0000B18F0BFC6105000000097048597300000EC200000EC20115284A80000000
+      C44944415478DAEDD9310E83300C4051FB0A65EDD8FB5FA86C74ED1952359251
+      D5A68021B684F459C8025F7E62C22A22459C5729EE47449FD75BB94C7751D5F9
+      056BE7F7DD1BDD156A45D78235343C46378597F4F0445BA7EB1AB2732BD6956E
+      8931642263FC8C85857ECE5174DF84E113592C3714499736917D81B9A168BA1A
+      850E3AE8A0830E3AE8A0830E3AE8A0830E3AE8A0830E3AE8A03B375D8DF1837D
+      0F5B8DA66E5BD2F647A7DD888587FE45BAD3B502DD265A9AE270C85EBE253087
+      2469FBFF0272480A0DF5B0F99D0000000049454E44AE426082}
+    Transparent = True
+  end
+  object btnResetA: TButton
+    Left = 504
+    Top = 504
+    Width = 75
+    Height = 25
+    Caption = 'Reset A'
+    TabOrder = 0
+  end
+  object btnResetB: TButton
+    Left = 624
+    Top = 504
+    Width = 75
+    Height = 25
+    Caption = 'Reset B'
+    TabOrder = 1
+  end
+  object btnStart: TButton
+    Left = 504
+    Top = 543
+    Width = 75
+    Height = 25
+    Caption = 'Start'
+    TabOrder = 2
+  end
+  object btnBreak: TButton
+    Left = 624
+    Top = 543
+    Width = 75
+    Height = 25
+    Caption = 'Pause'
+    TabOrder = 3
+  end
+end

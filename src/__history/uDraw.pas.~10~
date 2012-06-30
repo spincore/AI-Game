@@ -1,0 +1,18 @@
+unit uDraw;
+//enthält alle gezeichneten Objekte
+//Tore, Spieler, Ball
+interface
+uses
+  vcl.extctrls;
+  //drawXXX(board : TPaintbox; startX, startY, endX, endY : integer)
+
+  procedure drawField(board : TPaintbox; startX, startY, endX, endY : integer);
+
+
+implementation
+  procedure drawField(board : TPaintbox; x,y : integer);
+  begin
+
+  end;
+
+end.

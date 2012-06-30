@@ -1,0 +1,42 @@
+#### Bewegung #### mit Geschw.-Balken 
+Kreis 3		-	40  p/s	( 1x Größe pro Sek.)	-	DEF (40p)
+Kreis 2		-	90  p/s	( 3x Größe pro Sek.)	-	MID (30p)
+Kreis 1		-	220 p/s (11x Größe pro Sek.)	-	ATT (20p)
+
+Geschw.-Balken (4 Viertel) - (100p)
+Kreis 3		-	1s für 100%
+Kreis 2		-	1s für 50%
+Kreis 1		-	1s für 50%, 1s für je 25%
+
+
+#### PASS - POWER ####
+mit Aufladepower-Balken (3 Drittel) - Ball (10p) - Balken (100p)
+
+Kreis 3		-	240 p/s (24x Ballgröße)		-	Dauer	(1D/s)	
+Kreis 2		-	600 p/s (60x Ballgröße)		-	(D1 1s, D2 2s, D3 3s)
+Kreis 1		-	420 p/s	(42x Ballgröße)		-	(D1 D2 je 1s, D3 2s)
+
+#### SCHUSS - POWER ####
+mit Aufladepower-Balken (4 Viertel) - Schuss prallt bei 1. Berührung vom Kreis ab
+
+Kreis 3		-	1000 p/s	- Dauer	(2s/V)	- Balken (100p)
+Kreis 2		-	420 p/s		- 	(bis V2 1s, dann 1V/s) 
+Kreis 1		-	600 p/s		- 	(1V/s, V4 2s)
+
+
+#### VERTEIDIGUNG ####
+mit Geschwindigkeit rammen (Mindestgeschw. benötigt / Abhäng. von der Größe), 
+oder zu zweit umzingeln (Größerer Kreis bekommt den Ball dann)
+
+Kreis 3		-	min. 5 p/s von 40 p/s
+Kreis 2		-	min. 80 p/s von 90 p/s entweder bei Kreis 2 oder Kreis 1
+Kreis 1		-	min. 110 p/s bei Kreis 1, 220 p/s bei Kreis 2
+umzingeln = 2 Kreise berühren den Ballführenden
+
+#### Sonstiges ####
+Torlinie 	- 80p lang
+Spielfeld	- 1000p x 400p
+Mittelkreis	- 200p
+Spieldauer	- 2:30 min. je Hälfte
+Der Ball prallt solange von der Bande ab bis "Jemand" ihn fängt, oder ein Tor passiert.
+Zu Beginn einer Hälfte wird der Ball im Mittelkreis zufällig platziert.
